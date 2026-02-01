@@ -19,6 +19,8 @@ It was developed as an academic project at INSA Rennes.
 ---
 
 ## Dataset
+Link to download our dataset:
+https://drive.google.com/drive/folders/1EWBklmisc5AMh_X3QHu8UuC6fVRwRs4k?usp=sharing
 
 The dataset is divided into three parts:
 
