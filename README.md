@@ -12,7 +12,7 @@ It aims to support medical diagnosis by identifying:
 
 ## Project Overview
 
-This project uses hand-crafted features extracted from medical images and applies dimensionality reduction and classification models to achieve accurate predictions.
+This project uses features extracted from medical images and applies dimensionality reduction and classification models to achieve accurate predictions.
 
 It was developed as an academic project at INSA Rennes.
 
@@ -36,7 +36,7 @@ The dataset is divided into three parts:
 - COVID-19: 50 images
 - Pneumonia: 50 images
 
-The dataset is balanced.
+The dataset is not balanced.
 
 ---
 
@@ -52,7 +52,7 @@ All images are processed using the following steps:
 
 ---
 
-## Feature Extraction (68 Features)
+## Feature Extraction (65 Features)
 
 Each image is represented using 68 hand-crafted features:
 
@@ -61,7 +61,6 @@ Each image is represented using 68 hand-crafted features:
 | Luminance Histogram | 32         |
 | Texture (LBP)       | 26         |
 | Hu Moments          | 7          |
-| Density Features    | 3          |
 
 ---
 
